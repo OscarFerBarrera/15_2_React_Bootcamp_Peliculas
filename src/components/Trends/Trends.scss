@@ -1,0 +1,53 @@
+.trend{
+  display: flex;
+  display: block;
+
+  &__header{
+
+    background-image: url(../../assets/imageHeader.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  &__header--title{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 5rem;
+    margin-left: 40px;
+  }
+
+  &__header--subtitle{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 3rem;
+    margin-left: 40px;
+  }
+
+  &__selection{
+    display: flex;
+
+    &--btn{
+      background-color: #052641;
+      color: white;
+      font-weight: 200;
+      font-size: large;
+      border-radius: 10px;
+      margin: 10px;
+    
+    }
+    &--title{
+      color: #052641;
+      font-weight: bolder;
+      margin-left: 20px;
+    }
+  }
+
+}
+
